@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function btnclick()
+{
+   var value= prompt();
+   var inputText=document.getElementById('uni')
+   inputText.value=value
+}
+
+    </script>
+    <style>
+        #main{
+            background-color:brown;
+            width:500px;
+            height:200px;
+            margin:200px 0px 0px 400px;
+            padding: 50px 0px 0px 60px;
+        }
+        #uni, button{
+            color:white;
+            background-color:gray;
+            margin-left: 40px;
+        }
+        h1{
+            color:white;
+        }
+        
+    
+
+            
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="main">  
+         <h1> Display value throw prompt</h1>
+    <input type="text" id="uni" name="uni"/>
+    <button onclick="btnclick()"> Click Here </button>
+</div>
+ 
+</body>
+</html>
